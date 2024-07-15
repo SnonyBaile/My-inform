@@ -1,0 +1,82 @@
+/* css */
+
+/* Загальні стилі для всіх сторінок */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #e6a9a9;
+}
+
+/* Стилі для заголовків */
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Стилі для основного контенту */
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+/* Стилі для footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Стилі для контактної сторінки */
+.contact p {
+    margin: 10px 0;
+}
+
+/* Стилі для галереї */
+.gallery img {
+    width: 10%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    border-radius: 25px;
+}
+
+.gallery figcaption {
+    text-align: center;
+    color: #666;
+    font-style: italic;
+}
